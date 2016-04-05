@@ -32,8 +32,10 @@ p {
   font-size: 12px;
   margin-right: 50px;
 }
-.clearfix {
-  overflow: auto;
+h3 {
+  font-family: Verdana;
+  float: left;
+  margin-left: 10px;
 }
 .events {
   width: 850px;
@@ -45,8 +47,12 @@ p {
 }
 .event-image {
   height: 150px;
-  margin: 40px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 h2 {
+  font-family: Verdana;
   font-size: 10px;
+  text-align: center;
 }
