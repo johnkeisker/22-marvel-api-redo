@@ -1,50 +1,41 @@
 header {
   height: 150px;
-  background-color: #2C3E50;
-}
-
+  background-color: #2C3E50; }
 
 .main-hero {
   width: 340px;
   margin-top: 20px;
   margin-left: 20px;
-  float: left;
-
-
-}
+  float: left; }
 
 .main-image {
   margin-top: -40%;
   height: 300px;
   border: 3px solid black;
-  border-radius: 5px;
+  border-radius: 5px; }
 
-}
 h1 {
   font-family: Verdana;
   font-size: 20px;
   text-align: center;
-  margin-right: 40px;
-}
+  margin-right: 40px; }
+
 p {
   text-align: center;
   font-family: Verdana;
   font-size: 12px;
-  margin-right: 50px;
-}
+  margin-right: 50px; }
+
 .clearfix {
-  overflow: auto;
-}
+  overflow: auto; }
+
 .events {
   width: 850px;
-float: left;
-}
-.event {
-display: inline-block;
+  float: left; }
 
-}
+.event {
+  display: inline-block; }
+
 .event-image {
   height: 200px;
-
-  margin: 40px 5px 5px 5px;
-}
+  margin: 40px 5px 5px 5px; }

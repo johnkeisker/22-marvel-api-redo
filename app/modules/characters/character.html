@@ -1,0 +1,13 @@
+
+<div class="main-hero">
+  <img class="main-image" ng-src="{{ charCtrl.image }}">
+  <h1>{{ charCtrl.name }}</h1>
+  <p>{{ charCtrl.description}}</p>
+</div>
+
+<div class="events">
+  <div class="event" ng-repeat="event in charCtrl.events">
+    <img class="event-image" ng-src="{{ charCtrl.eventImage(event) }}">
+    <h2>{{ event.title }}</h2>
+  </div>
+</div>
