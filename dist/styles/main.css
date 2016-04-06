@@ -20,6 +20,17 @@ header {
   border: 3px solid black;
   border-radius: 5px; }
 
+.event {
+  float: left;
+  margin: 10px 10px 0 0; }
+
+.event-image {
+  height: 120px;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 120px;
+  margin: 5px 5px 5px 5px; }
+
 h1 {
   font-family: Verdana;
   font-size: 20px;
@@ -33,13 +44,7 @@ p {
   margin-right: 50px; }
 
 h3 {
-  font-family: Verdana;
-  float: left;
-  margin-left: 10px; }
-
-.events {
-  width: 850px;
-  float: left; }
+  font-family: Verdana; }
 
 .event-link {
   text-decoration: none;
@@ -48,22 +53,21 @@ h3 {
 .character {
   width: 200px;
   float: right;
-  margin: 50px 0px 0px 20px;
+  margin-top: 20px;
+  padding-top: 20px;
   font-family: Verdana;
   display: table-column-group; }
 
-.event-image {
-  height: 150px;
-  margin: 5px 5px 5px 5px;
-  border: 2px solid black;
+.character-image {
+  margin-top: -50%;
+  height: 300px;
+  border: 3px solid black;
   border-radius: 5px; }
 
 h2 {
   font-family: Verdana;
-  font-size: 10px;
+  font-size: 8px;
   text-align: center; }
 
 h4 {
-  font-family: Verdana;
-  float: left;
-  margin-left: 10px; }
+  font-family: Verdana; }
