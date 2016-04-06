@@ -18,7 +18,7 @@ function config($stateProvider) {
   $stateProvider
     .state("events", {
       url: "/events/:id",
-      controller: "eventsController as eventCtrl",
+      controller: "EventsController as eventCtrl",
       template: require('./event.html')
     })
 }

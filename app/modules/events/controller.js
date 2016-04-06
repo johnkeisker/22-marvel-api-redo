@@ -39,9 +39,21 @@ class EventsController {
 
 	constructor($http, $stateParams) {
     this._$http = $http;
+		this.id = $stateParams.id;
+		this.getData();
 	}
 
   getData() {
+		this._$http
+			.get(`http://gateway.marvel.com:80/v1/public/events/${this.id}?apikey=0fd87f40d6dd1419e4153fe1a1c9cf04`)
+			.then((response) => {
+				console.log(response);
+				this.id = response.data.data.results[0].id;
+				this.description = response.data.data.results[0].description;
+				this.image = `${response.data.data.results[0].thumbnail.path}.${response.data.data.results[0].thumbnail.extension}`;
+				this.characters = response.data.data.results[0].characters.items;
+				this.title = response.data.data.results[0].title;
+			})
   }
 
 }
