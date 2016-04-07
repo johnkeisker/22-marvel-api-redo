@@ -4,6 +4,7 @@ header {
 
 .main-hero {
   width: 340px;
+  height: 800px;
   margin-top: 20px;
   margin-left: 20px;
   float: left; }
@@ -25,15 +26,15 @@ header {
   margin: 10px 10px 0 0; }
 
 .event-image {
-  height: 120px;
+  height: 150px;
   border: 3px solid black;
   border-radius: 5px;
-  width: 120px;
+  width: 150px;
   margin: 5px 5px 5px 5px; }
 
 h1 {
   font-family: Verdana;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   margin-right: 40px; }
 
@@ -53,7 +54,7 @@ h3 {
 .character {
   width: 200px;
   float: right;
-  margin-top: 20px;
+  margin-right: 20px;
   padding-top: 20px;
   font-family: Verdana;
   display: table-column-group; }
@@ -66,8 +67,9 @@ h3 {
 
 h2 {
   font-family: Verdana;
-  font-size: 8px;
+  font-size: 12px;
   text-align: center; }
 
 h4 {
+  font-size: 25px;
   font-family: Verdana; }
